@@ -25,21 +25,38 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     'latitude': 37.8199,
                     'longitude': -122.4783
                 }
+        }, {'bridges_name':'Mackinac Bridge',
+            'meter':1158.0,
+            'location':
+                {
+                    'latitude': 45.8174,
+                    'longitude': -84.7278
+                }
+        },{'bridges_name':'George Washington Bridge',
+            'meter':1067.0,
+            'location':
+                {
+                    'latitude': 40.8517,
+                    'longitude': -73.9527
+                }
+        },{'bridges_name':'Tacoma Narrows Bridge',
+            'meter':853.44,
+            'location':
+                {
+                    'latitude': 47.2690,
+                    'longitude': -122.5517
+                }
         }
-
 
 
     ]
 
-
-
-let  briges_name=['Verrazano-Narrows Bridge','Golden Gate Bridge','Mackinac Bridge','George Washington Bridge','Tacoma Narrows Bridge']
-let  locationList=[ {"latitude":40.6066,
-    "longitude":-74.0447},{"latitude":37.8199,
-    "longitude":-122.4783},{"latitude":45.8174,
-    "longitude":-84.7278},{"latitude":40.8517,
-    "longitude":-73.9527},{"latitude":47.2690,
-    "longitude":-122.5517}
+let  briges_name=['Verrazano-Narrows Bridge','Golden Gate Bridge','','','']
+let  locationList=[ {"latitude":40.6066,    "longitude":-74.0447},
+    {"latitude":37.8199,    "longitude":-122.4783},
+    {"latitude":45.8174,    "longitude":-84.7278},
+    {"latitude":40.8517,    "longitude":-73.9527},
+    {"latitude":47.2690,    "longitude":-122.5517}
 
 ]
 let spanList=[1298.4,1280.2,1158.0,1067.0,853.44]
@@ -68,10 +85,6 @@ bridges.forEach(function (bridge_info){
 
 
 
-// for (let x=0; x>=briges_name.length; x++){
-//    //bridgeMarker
-//     console.log(briges_name[x])
-// }
 
 
 
